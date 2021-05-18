@@ -1,9 +1,9 @@
 import gspread
 import time
 start = time.time()
-gc = gspread.service_account(filename='credentials.json')
+gc = gspread.service_account(filename='add ur json file')
 
-sh = gc.open_by_key('1qGr0lGTK0r1GDyRR69A6PmBDvXzkI7IgTtJN0O3R5J4')
+sh = gc.open_by_key('add ur key')
 
 worksheet = sh.sheet1
 
