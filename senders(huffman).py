@@ -1,8 +1,8 @@
 #Imported library
 import os
 import gspread
-gc = gspread.service_account(filename='credentials.json')
-sh = gc.open_by_key('1qGr0lGTK0r1GDyRR69A6PmBDvXzkI7IgTtJN0O3R5J4')
+gc = gspread.service_account(filename='add ur file ')
+sh = gc.open_by_key('add ur key')
 # Huffman Coding in python
 #Taking text message as input
 string = input("Enter the Text :")
